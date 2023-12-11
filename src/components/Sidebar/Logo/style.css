@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
+.sidebar_logo {
+  width: 225px;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 0;
+  gap: 10px;
+}
+.sidebar_logo-icon {
+  width: 37px;
+}
+.sidebar_logo-text {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.sidebar_logo-text::after {
+  content: "v.01";
+  width: 18px;
+  height: 15px;
+  color: #838383;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}

@@ -1,0 +1,30 @@
+.customersBox_table-content {
+  height: 21px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+.customersBox_table-content-cell {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #292d32;
+  display: grid;
+  padding: 20px 0;
+  border-bottom: 1px solid#eeeeee;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+@media screen and (max-width: 1000px) {
+  .customersBox_table-content-cell {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  .customersBox_table-content-cell div {
+    word-wrap: break-word;
+    width: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+.customersBox {
+  width: 968px;
+  height: 812px;
+  border-radius: 4px;
+  background-color: white;
+  padding: 0 35px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1000px) {
+  .customersBox {
+    width: 380px;
+    gap: 10px;
+    height: 1100px;
+  }
+}

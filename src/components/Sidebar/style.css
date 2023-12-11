@@ -1,0 +1,14 @@
+.sidebar {
+  width: 306px;
+  height: 1198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 90%;
+    height: 400px;
+  }
+}

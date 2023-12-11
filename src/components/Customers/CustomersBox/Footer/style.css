@@ -1,0 +1,22 @@
+.customersBox_footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.customersBox_footer-datasize {
+  width: max-content;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #b5b7c0;
+}
+@media screen and (max-width: 1000px) {
+  .customersBox_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

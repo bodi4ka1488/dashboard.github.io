@@ -1,0 +1,22 @@
+.customersBox_table-header {
+  height: 21px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.customersBox_table-header-cell {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #b5b7c0;
+}
+@media screen and (max-width: 1000px) {
+  .customersBox_table-header-cell {
+    font-size: 12px;
+  }
+}
